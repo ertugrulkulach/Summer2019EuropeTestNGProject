@@ -7,7 +7,7 @@ public class callWebDriverFactory {
 
 
     public static void main(String[] args) {
-        WebDriver driver= WebDriverFactory.getDriver("firefox");
+        WebDriver driver= WebDriverFactory.getDriver("chrome");
         driver.get("https://www.google.com");
     }
 }
