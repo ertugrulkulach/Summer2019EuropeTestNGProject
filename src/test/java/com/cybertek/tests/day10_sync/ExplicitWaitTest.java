@@ -42,9 +42,6 @@ public class ExplicitWaitTest {
 
         wait.until(ExpectedConditions.visibilityOf(username));
 
-
-
-
         username.sendKeys("ertugrul");
 
 
